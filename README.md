@@ -1,6 +1,6 @@
-# JetApps — site local
+# JetApps — site estático
 
-Site estático criado somente nesta pasta. Não requer framework, instalação de pacotes, conta ou banco de dados. O botão principal baixa `downloads/JetSheets-Installer-windows-x86_64.exe` da própria pasta do site.
+Este site não requer framework, instalação de pacotes, conta ou banco de dados. O botão principal baixa `downloads/JetSheets-Installer-windows-x86_64.exe` da própria pasta do site.
 
 ## Visualizar localmente
 
@@ -11,7 +11,7 @@ cd jetsheets-site
 python -m http.server 8080
 ```
 
-Depois acesse `http://localhost:8080`. Para publicar em uma hospedagem sua, envie **todo o conteúdo** desta pasta, inclusive `downloads/`. Nenhum arquivo do site foi enviado ao GitHub.
+Depois acesse `http://localhost:8080`. Ao publicar, inclua **todo o conteúdo** desta pasta, inclusive `downloads/`.
 
 ## Adicionar futuros programas
 
